@@ -19,3 +19,7 @@ project/target/streams/$global/projectDescriptors/$global/streams/out
 project/target/streams/compile/dependencyClasspath/$global/streams/export
 *.conf
 *.xsl
+*.sbt
+*.sbtserver
+RUNNING_PID
+*.css

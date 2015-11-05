@@ -14,3 +14,5 @@ lazy val root = (project in file(".")).
 	)
 
 fork in run := true
+
+fork in run := true
