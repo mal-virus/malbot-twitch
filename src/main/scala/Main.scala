@@ -4,7 +4,7 @@ import com.typesafe.config.ConfigFactory
 
 object Main extends App {
 	
-	/** Loads all key/value pairs from the application configuration file. */
+	/** Loads all key/value pairs from the application.conf file located in src/main/resources. */
 	val conf = ConfigFactory.load
 	
 	val bot = new MalBot(conf)
